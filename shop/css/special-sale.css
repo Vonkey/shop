@@ -1,0 +1,31 @@
+#header{
+    background: url(../img/banner33.jpg) no-repeat center;
+    height: 250px;
+    background-size: cover;
+}
+
+/* brand开始 */
+
+#brand{
+    margin-top: 20px;
+    font-size: 20px;
+}
+#brand img{
+    margin-right: 21px;
+    margin-top: 10px;
+}
+
+
+/* brand结束 */
+
+/* product开始 */
+#product{
+    margin-top: 50px;
+}
+#product h2{
+     color: #3C3B3B;
+}
+
+
+
+/* product结束 */

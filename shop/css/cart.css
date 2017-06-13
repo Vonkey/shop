@@ -1,0 +1,118 @@
+#cart-mine{
+    width: 855px;
+    height: 504px;
+    padding-top: 50px;
+    float: left;
+}
+#cart-container{
+    height: 800px;
+    background: #efefef;
+}
+#cart-price{
+    width: 285px;
+    height: 381px;
+}
+#cart-mine .cosmetic{
+    width: 134px;
+    height: 134px;
+    float:left;
+}
+#cart-mine .cart-detail{
+    width: 804px;
+    height: 204px;
+    margin-top: 30px;
+}
+#cart-mine .close{
+    float: right;
+    cursor: pointer;
+}
+.cart-info{
+    float:left;
+    margin-left:30px;
+}
+.cart-info .price{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #000;
+    width: 625px;
+}
+.cart-info .price-info{
+    margin-right: 50px;
+    font-size: 20px;
+}
+#cart-mine input[type="number"]{
+    width: 82px;
+    height: 34px;
+    text-indent: 10px;
+    border-radius: 5px;
+    border: 1px solid #999;
+}
+#cart-mine .time{
+    padding-top: 20px;
+}
+#cart-mine .time span{
+    color:#ccc;
+}
+#cart-mine .arrive{
+    float: right;
+}
+#cart-price{
+    width: 185px;
+    height: 350px;
+    float: right;
+    padding-top: 100px;
+    margin-top: 60px;
+    padding-right: 50px;
+    padding-left: 49px;
+    border-left: 1px solid #000;
+}
+#cart-price .continue{
+    background-color: orange;
+    color:#fff;
+    width: 160px;
+    height: 40px;
+    line-height: 30px;
+    border: 0;
+    border-radius: 5px;
+    font-size:0.9em;
+    font-weight: 500;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#cart-price .continue:hover{
+    background: #000;
+}
+#cart-price .freight{
+    padding-bottom: 20px;
+    border-bottom: 1px solid #000;
+}
+#cart-price span{
+    width: 100px;
+}
+#cart-price .total{
+    color:#000;
+    font-size:20px;
+    line-height: 40px;
+    margin-bottom:30px;
+    font-weight: 700;
+}
+#cart-price .btn-order{
+    background-color: #000;
+    color:#fff;
+    width: 200px;
+    height: 50px;
+    line-height: 30px;
+    border: 0;
+    border-radius: 5px;
+    font-size:0.9em;
+    font-weight: 500;
+    cursor: pointer;
+}
+#cart-price .btn-order:hover{
+    background: orange;
+}
+#cart-price span{
+    display: inline-block;
+    margin-left: 30px;
+}

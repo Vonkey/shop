@@ -1,0 +1,79 @@
+#registration{
+    height: 730px;
+    overflow: hidden;
+}
+#registration h1{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
+#registration-container{
+    width: 540px;
+    float: left;
+}
+#registration-container>p{
+    color:#999;
+}
+#registration-container a{
+    color: black;
+    
+}
+#registration-container form{
+    margin-top: 30px;
+    color: #5d5959;
+}
+#registration-container label{
+    display: block;
+    margin-bottom: 20px;
+}
+#registration-container span{
+    display: inline-block;
+    width: 170px;
+    font-size: 20px;
+}
+#registration-container label input{
+    width: 360px;
+    height: 40px;
+    outline: none;
+    outline-color: #ccc;
+    border: 1px solid #D7D8D9;
+    color: #5d5959;
+    font-size: 20px;
+    text-indent: 10px;
+}
+#registration-container input[type="submit"]{
+    height: 50px;
+    width: 360px;
+    border-radius: 5px;
+    color:#fff;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    background: #ef8743;
+    border: none;
+    margin-left: 90px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+#registration-container input[type="submit"]:hover{
+    background: #fff;
+    border: solid 1.5px #000;
+    color: black;
+}
+#registration #description{
+    width: 550px;
+    float: left;
+    margin-left: 50px;
+}
+#description h3{
+    color: #ef8743;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+#description p{
+    color:#999;
+    line-height: 30px;
+    font-weight: 500;
+}
+#description .breakpoint{
+    margin-top: 30px;
+}

@@ -1,0 +1,47 @@
+#men{
+    height: 2000px;
+}
+#address{
+    margin-top: 80px;
+    background: #ccc;
+    color: #000;
+    padding: 10px 0;
+    margin-bottom: 30px;
+}
+#address a{
+    color:dimgray;
+}
+#address a:hover{
+    color: chocolate;
+    text-decoration: underline;
+}
+#men>h1{
+    margin-bottom: 20px;
+}
+#left-nav{
+    float: left;
+}
+#left-nav #categories>h3{
+    background: #000;
+    color: #fff;
+    font-size: 1em;
+    font-weight: 200;
+    padding: 10px;;
+    padding-right: 80px;
+}
+#categories .clothes-type{
+    background-color: #ccc;
+    padding: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    background: url(../img/do.png) no-repeat right center;
+}
+#categories a{
+    display: block;
+}
+.label label{
+    display: block;
+}
+#products>div{
+    float:left;
+}

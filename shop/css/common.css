@@ -22,10 +22,10 @@ li{
 
 /*header的开始*/
 #header{
-    height: 600px;
-    background: url(../img/banner.jpg) no-repeat;
-    background-position: center;
-}    
+    background: url(../img/banner33.jpg) no-repeat center;
+    height: 250px;
+    background-size: cover;
+}
 #login a:hover{
     text-decoration: underline;
 }
@@ -37,10 +37,9 @@ li{
     color:#fff;
 }
 #header #cart{
-    width:242.198px;
-    height:30px;
+    width:280px;
+    height:50px;
     background: #555555 url(../img/cart.png) 230px center no-repeat;
-    padding:10px 20px;
     margin-top:25px;
     color:#fff;
     opacity:.6;/*取值范围0~1*/
@@ -49,6 +48,13 @@ li{
     line-height: 30px;
     cursor: pointer;
     float:right;
+}
+#cart a{
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 100%;
+    line-height: 50px;
 }
 #header img{
     vertical-align:middle;
@@ -95,6 +101,8 @@ li{
     height: 300px;
     background: #fff;
     display: none;
+    position:relative;
+    z-index: 100;
 }
 #makeup .submenu{
     margin-left:-190px;
@@ -150,7 +158,6 @@ li{
     padding-top: 10px;
     padding-left: 10px;
     padding-bottom: 50px;
-    background-color: #
 }
 .production-detail input{
     width: 150px;
@@ -171,3 +178,27 @@ li{
 
 
 /* product结束 */
+
+/* footer开始 */
+#footer{
+    box-sizing: border-box;
+    height: 90px;
+    background: #fa558f;
+}
+#footer h1{
+    float: left;
+    color:#fff;
+    padding-top: 20px;
+    font-size: 30px
+}
+#footer h1:hover{
+    color:#000;
+}
+#footer h5{
+    float: right;
+    color:#fff;
+    padding-top: 40px;
+    font-size:15px;
+}
+
+/* footer结束 */
